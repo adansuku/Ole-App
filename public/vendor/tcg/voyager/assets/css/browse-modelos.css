@@ -1,0 +1,63 @@
+.select2{
+	width: 70% !important;
+
+}
+
+.filter label{
+	width: 25% !important;
+	
+}
+
+#tpadult,
+#tpchild,
+#tpmodel,
+#tpcomerciale{
+	display:none;
+}
+
+select{
+	width: 100%;
+}
+
+.labeltoggle{
+	width: 100%;
+	padding: 2%;
+}
+
+div label input {
+	margin-right:100px;
+}
+body {
+	font-family:sans-serif;
+}
+
+.tpcheckbox {
+	padding: 0;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */
+}
+
+
+
+.tpcheckbox label {
+	margin-bottom: 0;
+}
+
+.tpcheckbox label span {
+	padding: 6px 15px;
+	display: block;
+	cursor: pointer;
+}
+
+.tpcheckbox label input {
+	position: absolute;
+	visibility: hidden;
+}
+
+.tpcheckbox input:checked + span {
+	background-color: #abec96;
+    color: #333333;
+    box-shadow: 0px 0px 20px #b6ff9e;	
+}

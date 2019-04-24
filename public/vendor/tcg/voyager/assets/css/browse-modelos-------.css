@@ -1,0 +1,19 @@
+.select2{
+	width: 70% !important;
+
+}
+
+.filter label{
+	width: 25% !important;
+	
+}
+
+select{
+	width: 100%;
+}
+
+.labeltoggle{
+	width: 100%;
+	padding: 2%;
+}
+

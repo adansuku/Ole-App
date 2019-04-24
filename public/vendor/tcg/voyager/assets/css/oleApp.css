@@ -1,0 +1,450 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+hr{
+border: none !important;
+}
+
+td{
+	font-size:1.2em;
+}
+
+.voyager .side-menu.sidebar-inverse{ /*side menu*/
+	background: #333333 !important;
+}
+
+.voyager .side-menu .navbar-header{ /* header side menu*/
+	background: black !important;
+}
+
+.container-fluid{
+	border:none !important; /*borde molesto que estaba sobre el nav*/
+	
+}
+
+.navbar-top{ /*barra superior top*/
+		background: #333333 !important;
+}
+
+/*view list modelos*/
+
+.voyager .btn.btn-success{
+	background: none;
+    border: unset;
+    color: #737373;
+    border-radius: 0px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.05);
+    margin-right: 5px;
+}
+
+.voyager .btn.btn-warning {
+	background: unset !important;
+    border: unset;
+    color: #737373;
+    border-radius: 0px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.05);
+    margin-right: 5px;
+}
+
+.voyager .btn.btn-info {
+	background: none;
+    border: unset;
+    color: #737373;
+    border-radius: 0px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.05);
+    margin-right: 5px;	
+}
+
+.filtro{
+padding: 20px 0px;
+min-height: 100px;
+}
+.btn-danger{
+background: unset !important;
+border: unset !important;
+border-radius: 0px !important;
+color: #d62704 !important;
+box-shadow: 0 2px 10px rgba(0,0,0,.05);
+margin-right: 5px;
+}
+
+.breadcrumb{
+	display: none;
+}
+
+
+/*login*/
+.login-button, .bar:before, .bar:after{
+	background: black !important;
+}
+/*editar*/
+.btn.btn-primary{
+    background: #dadada !important;
+    border-radius: 0px;
+    font-weight: bold;
+}
+/*ver*/
+.btn.btn-warning{
+	background: #95A5A6 !important;
+}
+
+.menu-right {
+	padding-right: 0px;
+}
+
+#anadir {
+	margin-right: 0px;
+}
+
+.toggle {
+	background-color: #F0F0F0;
+}
+
+
+.toggle.btn {
+    border: 0;
+    border-radius: 0px;
+    background: #737373 !important;
+    border-radius: 0px;
+    margin: unset;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.05);
+    margin-right: 5px;
+}
+
+.toggle label {
+	color: #737373 !important;
+}
+
+.toggle-off {
+	background: unset;
+}
+
+.toggle-group .btn, .toggle-group .btn.btn-default {
+	border-radius: 0px;
+    border: unset;
+} 
+
+.voyager .btn.btn-default{
+	background: #cacaca;
+}
+
+/*labels*/
+.modelos-filtro{
+	width: 22%;
+}
+
+/*notificaiones*/
+.alert alert-warning{
+	background: red;
+}
+
+/*acciones td*/
+.actions sorting{
+width: 20%;
+}
+
+.panel {
+	border-radius: 0px !important;
+}
+
+.voyager .table>thead>tr>th {
+	background: unset !important;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+	border: 0px;
+	border-bottom: 2px solid #737373;
+    border-radius: 0;
+}
+
+#bread-actions .btn-danger {
+	box-shadow: 0 2px 10px rgba(0,0,0,.05);
+}
+
+#bread-actions .btn-warning {
+	background: unset !important;
+    color: #737373;
+    box-shadow: 0 2px 10px rgba(0,0,0,.05);
+}
+
+#bread-actions .btn-primary {
+	background: unset !important;
+    color: #737373;
+    box-shadow: 0 2px 10px rgba(0,0,0,.05);
+}
+
+#dataTable a {
+	color: #737373;
+    /* text-decoration: underline; */
+    font-weight: bold;
+}
+
+.collapsing {
+    -webkit-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+
+.select2-container--default .select2-selection--multiple {
+	border-radius: 0px;
+    border: 1px solid #cacaca;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+	border-radius: 0px;
+	border: 0;
+	box-shadow: 0 2px 10px rgba(0,0,0,.05);
+}
+
+.read-modelos h1 {
+	font-size: 26px;
+    color: #737373;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.read-modelos h2 {
+	font-size: 16px;
+    color: #737373;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.label-info {
+	background-color: #cacaca;
+    border-radius: 0px;
+    border: 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,.05);
+    margin-right: 5px;
+}
+
+.read-modelos .bio {
+	text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.read-modelos .bio-image {
+	display: block;
+	width: 180px;
+	height: 270px;
+	box-shadow: 0 2px 10px rgba(0,0,0,.2);
+}
+
+.save {
+	border-radius: 0px;
+    font-weight: bold;
+    color: #737373 !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,.05);
+}
+
+.form-edit-add input {
+	border: 0px;
+	border-bottom: 1px solid #cacaca;
+	border-radius: 0px;
+	text-transform:uppercase;
+}
+
+.panel-body .form-group:nth-child(12) input,
+.panel-body .form-group:nth-child(15) input{
+	text-transform:lowercase;
+}
+
+.voyager input[type=file] {
+	border-radius: 0px;
+	border: 1px dashed #cacaca;
+}
+
+.bio-image-mini {
+	display: block;
+	width: 50px;
+	height: 70px;
+	box-shadow: 0 2px 10px rgba(0,0,0,.2);
+}
+
+.voyager .side-menu.sidebar-inverse .navbar li>a:hover {
+	background: #444444;
+}
+
+.app-container.expanded .content-container .side-menu .navbar-header .navbar-brand .title, .app-container.expanded .content-container .side-menu .navbar-nav li a .title {
+	display: inline-block;
+    text-transform: uppercase;
+    font-family: Source Sans Pro;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.app-container .content-container .side-menu .navbar-nav li a .title {
+	display: inline-block;
+    text-transform: uppercase;
+    font-family: Source Sans Pro;
+    letter-spacing: 2px;
+    font-weight: 300;	
+}
+
+.btn.btn-primary {
+	color: #737373 !important;
+}
+
+.app-container .side-menu .panel.widget h4 {
+	text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Source Sans Pro;
+}
+
+.btn:hover {
+	box-shadow: 0 2px 10px rgba(0,0,0,.2) !important;
+}
+
+.btn-danger:hover {
+	box-shadow: 0 2px 10px rgba(255, 73, 73, 0.45) !important;
+}
+
+.btn {
+	transition: box-shadow 0.3s ease-in-out;
+}
+
+.navbar-right .btn-danger {
+	box-shadow: unset;
+}
+
+.navbar .dropdown-menu {
+	border-radius: 0px !important;
+	border: 0 !important;
+	box-shadow: 0 2px 10px rgba(0,0,0,.2) !important !important;
+}
+
+.navbar .dropdown.profile .dropdown-menu li.profile-img img.profile-img {
+	border-radius: 0px;
+}
+
+.profile-body h5{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.profile-img{
+	border-radius: 0px !important;
+}
+
+body.login .login-sidebar {
+	border-top: 0px !important;
+}
+body.login .form-group-default {
+	border: unset;
+    border-bottom: 2px solid #737373;
+    border-radius: 0px;
+}
+body.login .form-group-default:hover {
+	box-shadow: 0 2px 10px rgba(0,0,0,.2) !important;
+}
+body.login .form-group-default.focused {
+	border-bottom: 2px solid #737373;
+}
+body.login .login-container p {
+	letter-spacing: 2px;
+}
+
+body.login .login-button {
+	background: unset !important;
+	border: 2px solid #737373 !important;
+    color: #737373;
+    font-size: 14px;
+    font-family: Source Sans Pro;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 0px;
+}
+
+body.login .login-button:focus, body.login .login-button:hover {
+	color: #737373;
+}
+
+body.login .alert-red {
+	    box-shadow: 0 2px 10px rgba(255, 73, 73, 0.45) !important;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.panel.widget .avatar {
+	border-radius: 0px;
+}
+
+.voyager .navbar .navbar-nav>li.open>a, .voyager .navbar.navbar-default .navbar-nav>li.open>a {
+	color: white;
+}
+
+.app-container .content-container .side-menu .navbar-header .navbar-brand .title {
+	font-family: 'Source Sans Pro';
+	letter-spacing: 2px;
+}
+ul.radio {
+	display: inline-block;
+}
+ul.radio li {
+	width: unset;
+}
+.form-edit-add input {
+	letter-spacing: 1px;
+}
+.img_settings_container {
+	display: inline-block;
+    margin-right: 10px;
+    padding-right: 10px;	
+}
+.img_settings_container img{
+	max-width: 200px !important;
+	width: 200px !important;
+}
+.featured {
+	background: yellow;
+    padding: 5px;
+    font-weight: bold;
+    color:black;
+    letter-spacing: 2px;
+}
+
+.panel-bordered>.panel-body {
+    /*padding: 20px 0px 0px;*/
+    overflow: hidden;
+}
+.select-all{
+	position:absolute;
+	top: 14px;
+	z-index: 777;
+}
+
+.voyager .pagination .active span, .voyager .pagination .active>a, .voyager .pagination .active>a:focus, .voyager .pagination .active>a:hover, .voyager .pagination .active>span:focus, .voyager .pagination .active>span:hover {
+	background-color: #333333;
+	border-color: #333333;
+}
+
+.menu-bar {
+	position: fixed;
+    top: 60px;
+    background: #f3f3f3;
+    width: 100%;
+    z-index: 10;
+    left: 60px;
+    padding: 5px 5px;
+    padding-left: 25px;
+}
+
+.btn.filter {
+	background-color: #cecece;
+}
+
+.navbar-top {
+	padding-bottom: 2px;
+}
+
+.voyager .navbar.navbar-default>.container-fluid:after, .voyager .navbar>.container-fluid {
+	border-bottom: unset;
+}
+
+.filter-nav {
+	margin-top: 35px;
+}
